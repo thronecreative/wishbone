@@ -3130,10 +3130,10 @@ textarea {
   100% {
     opacity: 1; } }
 #landing {
-  -webkit-display: flex;
+  display: -webkit-flex;
   -webkit-align-items: center;
   -webkit-justify-content: center;
-  -moz-display: flex;
+  display: -moz-flex;
   -moz-align-items: center;
   -moz-justify-content: center;
   display: flex;
