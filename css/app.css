@@ -3214,6 +3214,9 @@ a {
     left: 0;
     padding: 20px;
     font-size: 20px; }
+    @media (max-width: 700px) {
+      #landing .follow {
+        font-size: 40px; } }
     #landing .follow .social__icon {
       padding: 10px; }
   #landing .ion-social-instagram {
