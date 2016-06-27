@@ -3193,5 +3193,38 @@ a {
     font-size: 20px; }
     #landing .follow .social__icon {
       padding: 10px; }
+  #landing .ion-social-instagram {
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; }
+  #landing .ion-social-twitter {
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-delay: 2.25s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; }
+  #landing .ion-social-facebook {
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-delay: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; }
+  #landing .logo {
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*# sourceMappingURL=app.css.map */
